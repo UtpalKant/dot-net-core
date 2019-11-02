@@ -24,7 +24,6 @@ namespace ECart.Application.Api.Controllers
             }
             catch (Exception ex)
             {
-                Console.Write("Hi");
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }

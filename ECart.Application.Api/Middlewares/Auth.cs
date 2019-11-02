@@ -19,7 +19,7 @@ namespace ECart.Application.API.Middlewares
 
         public Task Invoke(HttpContext httpContext)
         {
-            Console.WriteLine("in auth middleware");
+            // add custom authorisation-code here.
             return _next(httpContext);
         }
     }
